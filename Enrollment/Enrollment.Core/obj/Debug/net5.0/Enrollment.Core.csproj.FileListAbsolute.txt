@@ -1,0 +1,12 @@
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\bin\Debug\net5.0\Enrollment.Core.deps.json
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\bin\Debug\net5.0\Enrollment.Core.dll
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\bin\Debug\net5.0\ref\Enrollment.Core.dll
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\bin\Debug\net5.0\Enrollment.Core.pdb
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\Enrollment.Core.csproj.AssemblyReference.cache
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\Enrollment.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\Enrollment.Core.AssemblyInfoInputs.cache
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\Enrollment.Core.AssemblyInfo.cs
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\Enrollment.Core.csproj.CoreCompileInputs.cache
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\Enrollment.Core.dll
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\ref\Enrollment.Core.dll
+C:\Users\oluwa\Documents\Source_codes\lexo\enrollment\enrollment\Enrollment\Enrollment.Core\obj\Debug\net5.0\Enrollment.Core.pdb
