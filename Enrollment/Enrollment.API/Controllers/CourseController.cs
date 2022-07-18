@@ -124,6 +124,31 @@ namespace Enrollment.API.Controllers
             return BadRequest("Please try again.");
         }
 
+        [HttpPost]
+        [Route("RemoveStudentCourse")]
+        public async Task<IActionResult> RemoveStudentCourse([FromBody] StudentCourse record)
+        {
+
+            var studentCourses = await _unitOfWork.StudentCourseRepository.GetWhere(p => p.StudentId == record.StudentId && p.CourseId==record.CourseId);
+            if (!studentCourses.Any())
+            {
+                return BadRequest($"Student not registered for course.");
+            }
+
+            var courseToRemove = studentCourses.FirstOrDefault();
+
+            courseToRemove.LastModified = DateTime.Now;
+            courseToRemove.IsActive = false;
+            _unitOfWork.StudentCourseRepository.Update(record);
+            bool isCompleted = await _unitOfWork.Complete();
+            if (isCompleted)
+            {
+                return Ok("Course successfully removed.");
+            }
+
+            return BadRequest("Please try again.");
+        }
+
 
         [HttpPut("{Id}")]
         public async Task<IActionResult> Put(long Id, [FromBody] Course value)
